@@ -21,7 +21,7 @@
                 <div class="mb-4">
                     <label for="password" class="form-label">Senha</label>
                     <div class="input-group">
-                        <input type="password" name="password" id="password" class="form-control" placeholder="Senha" 
+                        <input type="password" name="password" id="password" class="form-control" 
                                value="{{ old('password') }}" required>
                         <span class="input-group-text" role="button" onclick="togglePassword('password', this)">
                             <i class="bi bi-eye"></i>
